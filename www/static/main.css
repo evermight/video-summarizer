@@ -1,0 +1,95 @@
+body {
+  font-family: Arial;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+button {
+  padding: 0.5em 1em;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #333;
+  color: white;
+  transition: background 0.3s ease;
+  font-size: 2rem;
+}
+button:hover {
+  cursor: pointer;
+  background: #666;
+}
+.disabled {
+  display: none !important;
+}
+.loading {
+  display: block;
+  color: red;
+  margin-bottom: 2em;
+}
+
+.message {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-top: 0 solid #999;
+  color: #0000bd;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 160%;
+}
+.message .author {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.message:first-child {
+  border-top: 0;
+}
+.message.mine {
+  color: black;
+}
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em 1em;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  text-align:center;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+textarea {
+  width: 100%;
+  height: 10em;
+  margin-bottom: 3em;
+  box-sizing: border-box;
+  font-family: arial;
+  padding: 1.5em;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+form.step-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form.step-1 button {
+  font-size: 1.6rem;
+}
+form.step-1 textarea {
+  display: none;
+}
+form.step-2 input[type="text"] {
+  display: none;
+}
+form.step-2 {
+  padding: 20px 0 100px;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 20px;
+}

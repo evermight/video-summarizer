@@ -1,0 +1,8 @@
+FROM golang:1.21
+
+WORKDIR /www
+
+#RUN apt-get update && apt-get install -y vim
+RUN apt-get update
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]

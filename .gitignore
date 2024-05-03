@@ -1,0 +1,4 @@
+.env*
+tokens.json
+chatgpt/conversations
+www/conversations

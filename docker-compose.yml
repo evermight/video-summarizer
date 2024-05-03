@@ -1,0 +1,16 @@
+version: "3.8"
+
+networks:
+  default:
+    name: vidsum
+    external: false
+
+services:
+  vidsum:
+    build:
+      context: ./
+      dockerfile: ./www/dockerfile
+    ports:
+      - 8080:80
+    volumes:
+      - ./www:/www
