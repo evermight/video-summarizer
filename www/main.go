@@ -12,6 +12,7 @@ import (
 	"net/http"
 	"os"
 )
+// TODO: Break this long file up into meaningful modules
 
 var ConvDir string = "conversations"
 var Model string = "gpt-3.5-turbo-0125"
