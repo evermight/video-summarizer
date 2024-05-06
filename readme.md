@@ -1,7 +1,7 @@
 
 # Installation
 
-Copy `env.sample` as `.env`.  See the ChatGPT Setup and Google Setup on how to get the values necessary to fill out a `.env` file.
+Copy `~/env.sample` as `~/.env`.  See the ChatGPT Setup and Google Setup sections on how to get the values necessary to fill out a `.env` file.
 
 To get the `GOOGLE_API_TOKEN` needed in the `.env` file, you will need to run the `./oauth-step-1.sh` to generate a url to start the OAuth process.
 
