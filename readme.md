@@ -17,7 +17,7 @@ go run main.go
 
 ```
 
-Now visit `http://localhost:8181`.
+Now visit `http://localhost:8080`. (confirm port number in your `docker-compose.yml` file)
 
 You can make a production build of the `~/www/main.go` with `go build main.go` from within the docker container. More details to come.
 
